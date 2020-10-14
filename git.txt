@@ -4,3 +4,19 @@
 การ track file  git add index.html
 git add -A
 git add .
+3.การบันทึกประวัติของ source codde
+git commit -m "คำอธิบาย"
+4.การย้อนประวัติ
+เรียนกดูประวัติที่บันทึกไว้
+git log
+คำสั่งย้อนประวัติ
+git reset --hard หมายเลข commit id(7ตัวขึ้นไป)
+
+5.upload บน server
+กำหนดที่อยู่บน renote server
+git remote add origin https://github.com/iamsamitdev/swiperjs.git
+กำหนดสาขาหลักของโปรเจ็ก
+git branch -M main
+
+คำสั่ง
+git push -u origin main
