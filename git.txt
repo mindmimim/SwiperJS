@@ -1,0 +1,6 @@
+การใช้งาน git กับ project
+1.ทำการประกาศใช้งาน git ใน project git init
+2.ทำการ track ไฟล์ project ตรวจไฟล์ใน projectทั้งหมด git status
+การ track file  git add index.html
+git add -A
+git add .
